@@ -1,0 +1,143 @@
+﻿/*
+ This site Design with Bootstrap and Develop source code by. DJdai Yodsapon
+ Can contact DJdai at y.wongchuen@gmail.com or +66800257281 (Thailand Number)
+*/
+/* 
+    Created on : 15 ก.ย. 2559, 16:37:38
+    Author     : DJdai's
+*/
+body {
+    margin-top: 70px;
+    background-color: #e0e0e0;
+}
+h4 {
+    margin: 0px 0px 10px 0px;
+}
+hr {
+    border-color: #e0e0e0;
+}
+footer {
+    bottom: 0;
+    padding: 20px;
+    background-color: #303030;
+    color: #fff;
+    width: 100%;
+}
+.product-list .table-bordered{
+    background-color: #e9e9e9;
+    margin-bottom: 10px;
+}
+.product-list:hover .table-bordered{
+    background-color: #e9e9e9;
+    box-shadow: 0px 0px 5px 0px #909090;
+}
+@media (min-width: 320px) {
+    .productlist-name {
+        font-size: 8px;
+    }
+}
+@media (min-width: 360px) {
+    .productlist-name {
+        font-size: 9px;
+    }
+}
+@media (min-width: 480px) {
+    .productlist-name {
+        font-size: 11px;
+    }
+}
+@media (min-width: 1048px) {
+    .productlist-name {
+        font-size: 14px;
+    }
+}
+.price_baht{
+    color: #398439;
+    font-size: 12px;
+    font-weight: bold;
+}
+.price_true1{
+    color: #ff3300;
+    font-size: 12px;
+    font-weight: bold;
+}
+.price_true2{
+    color: #ff6633;
+    font-size: 12px;
+    font-weight: bold;
+}
+.sm-mainmenu {
+    font-weight: bold;
+    color: #fff;
+}
+.loading {
+    top:50%; left:50%;
+    font-size: 20px;
+    position:fixed;
+    margin-left:-50px;
+    margin-top:-50px;
+}
+.vieworder div:hover{
+    background-color: #a0a0a0;
+}
+
+/*ToolTips*/
+i.tooltips {
+  position: relative;
+  display: inline;
+}
+i.tooltips span {
+  position: absolute;
+  width:140px;
+  color: #FFFFFF;
+  background: #000000;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  visibility: hidden;
+  border-radius: 6px;
+}
+i.tooltips span:after {
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -8px;
+  width: 0; height: 0;
+  border-bottom: 8px solid #000000;
+  border-right: 8px solid transparent;
+  border-left: 8px solid transparent;
+}
+i:hover.tooltips span {
+  visibility: visible;
+  opacity: 0.8;
+  top: 30px;
+  left: 50%;
+  margin-left: -76px;
+  z-index: 999;
+}
+
+/*The Best Product*/
+.bestproduct_box {
+  position: relative;
+  //margin: 2px;
+  margin-bottom: 5px;
+}
+.bestproduct_text {
+  position: absolute;
+  right: 1px;
+  bottom: 1px;
+  width: 100%;
+  padding-right: 3px;
+  padding-left: 3px;
+  background-image: -webkit-linear-gradient(270deg, rgba(35, 35, 35, 0), rgba(35, 35, 35, .85));
+  background-image: linear-gradient(180deg, rgba(35, 35, 35, 0), rgba(35, 35, 35, .85));
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  text-align: left;
+  text-shadow: 1px 1px 3px #000;
+}
+.bestproduct_img {
+  width: 100%;
+}
